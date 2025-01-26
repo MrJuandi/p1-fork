@@ -1,24 +1,58 @@
 # Práctica 1
 
-Un repositorio para empezar a usar [git](https://git-scm.com/) y Github
+Explicación sobre el funcionamiento de distintos comandos de Git e instalación de Java, Maven y VsCode + Intellij.
 
-## ¿Como probar en la nube?
+## GIT CLONE
 
-[Github-Codespaces](https://github.com/features/codespaces)
+![Captura de pantalla](./images/captura1.png "GIT CLONE")
 
-## Comandos git básicos
+Creamos una copia completa del repositorio en local.
 
-```
-git clone https://github.com/gitt-3-pat/p1
-git status
-git add .
-git commit -m "TU MENSAJE"
-git push
+## GIT STATUS 
 
-git checkout -b feature/1
-git checkout main
-```
+![Captura de pantalla](./images/captura2.png "GIT STATUS")
 
-## ¿Cómo escribir un README.md con formato?
+Indica el estado del repositorio local y la rama en la que estamos trabajando
 
-[Github Markdown](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+## GIT ADD 
+
+![Captura de pantalla](./images/captura3.png "GIT ADD")
+
+Se preparan archivos para ser incluidos en el próximo commit
+
+## GIT COMMIT
+
+![Captura de pantalla](./images/captura4.png "GIT COMMIT")
+
+Confirma los cambios añadidos con git add
+
+## GIT PUSH
+
+![Captura de pantalla](./images/captura5.png "GIT PUSH")
+
+Sincronizas los cambios locales con la versión remota
+
+## GIT CHECKOUT -B FEATURE/1
+
+![Captura de pantalla](./images/captura6.png "GIT CHECKOUT -B FEATURE/1")
+
+Crea una nueva rama llamada feature/1 y cambia a esta
+
+## GIT CHECKOUT MAIN
+
+![Captura de pantalla](./images/captura7.png "GIT CHECKOUT MAIN")
+
+Vuelve a cambiar a la rama main
+
+## INSTALACIÓN JAVA 17
+
+![Captura de pantalla](./images/captura8.png "JAVA 17")
+
+## INSTALACIÓN MAVEN
+
+![Captura de pantalla](./images/captura9.png "MAVEN")
+
+## INSTALACIÓN VSCODE + INTELLIJ
+
+![Captura de pantalla](./images/captura10.png "VSCODE")
+![Captura de pantalla](./images/captura11.png "INTELLIJ")
